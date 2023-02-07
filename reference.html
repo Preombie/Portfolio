@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my profile || About Me</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script>
+        function setNewImage() {
+            document.getElementById("img").src = "https://vceplus.io/wp-content/uploads/2015/09/W3School.jpg";
+        }
+
+        function setOldImage() {
+            document.getElementById("img").src = "https://www.collegenp.com/uploads/2018/02/herald-college.png"
+        }
+    </script>
+</head>
+
+<body>
+    <div class="nav-bar flex-row">
+        <h1 class="logo"> PP </h1>
+        <div class="flex-row nav-links-container">
+            <a href="index.html">
+                <h3 class="nav-links"> About me </h3>
+            </a>
+            <a href="education.html">
+                <h3 class="nav-links"> Education </h3>
+            </a>
+            <a href="skill.html">
+                <h3 class="nav-links"> Skills </h3>
+            </a>
+            <a href="hobby.html">
+                <h3 class="nav-links"> Hobbies </h3>
+            </a>
+            <a href="contact.html">
+                <h3 class="nav-links"> Contact me </h3>
+            </a>
+            <a href="reference.html">
+                <h3 class="nav-links"> References </h3>
+            </a>
+        </div>
+    </div>
+    <div class="refere">
+        <p> Firstly, I made a wireframe for my website. I surfed through different websites to look through the
+            layouts.<br>
+            I inserted google fonts to make the website look more presentable.<br> I learnt about different elements, attributes  from websites like W3Schools.
+
+        </p>
+        <img id="img" onmouseover="setNewImage()" onmouseout="setOldImage()" src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" style="object-fit: contain;width: 500px;height: 300px;">
+    </div>
